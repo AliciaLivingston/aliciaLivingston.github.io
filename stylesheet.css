@@ -56,7 +56,7 @@ color: #ededed;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url("/img/Home.png");
+    background-image: url("Home.png");
     background-color: rgb(19, 10, 34);
     background-size: cover;
     background-position: center;
