@@ -1,19 +1,17 @@
-*
-{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins' , sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
-body
-{
-color: #ededed;
+body {
+    color: #ededed;
 }
-.header
-{
+
+.header {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
@@ -24,8 +22,7 @@ color: #ededed;
     z-index: 100;
 }
 
-.logo
-{
+.logo {
     position: relative;
     font-size: 25px;
     color: #fff;
@@ -33,9 +30,8 @@ color: #ededed;
     font-weight: 570;
 }
 
-.navbar a
-{
-    display:inline-block;
+.navbar a {
+    display: inline-block;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
@@ -45,12 +41,12 @@ color: #ededed;
 
 
 }
-.navbar a:hover
-{
-    color: rgb(255, 0, 234); 
+
+.navbar a:hover {
+    color: rgb(255, 0, 234);
 }
-.home
-{
+
+.home {
     position: relative;
     display: flex;
     width: 100%;
@@ -62,33 +58,40 @@ color: #ededed;
     background-position: center;
     align-items: center;
     padding: 10% 10px 0;
-    
-    
+
+
 }
 
-.home-content
-{
-    max-width:500px;
+.home-content {
+    max-width: 500px;
     margin-left: 50px;
 }
 
-.home-content h3
-{
+.home-content h3 {
     font-size: 30px;
     font-weight: 600;
 }
 
-.home-content p
-{
+.home-content p {
     font-size: 20px;
 }
-.home-content p span 
-{
-    color:rgb(255, 0, 234);
+
+.home-content p span {
+    color: rgb(255, 0, 234);
 }
 
-.home-sci a 
-{
+.home-content p:nth-of-type(1) {
+    margin-bottom: 5px;
+
+}
+
+.home-content p:nth-of-type(2) {
+    margin-bottom: 5px;
+    font-size: medium;
+
+}
+
+.home-sci a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -101,27 +104,27 @@ color: #ededed;
     margin: 30px 15px 30px 0px;
 
 }
-.home-sci a:hover 
-{
+
+.home-sci a:hover {
     background: rgb(255, 0, 234);
-    color: white;  
+    color: white;
     box-shadow: 0 0 20px rgb(255, 179, 245);
 }
-.btn-bx
-{
+
+.btn-bx {
     display: inline-block;
     padding: 12px 25px;
     background: rgb(255, 0, 234);
     border-radius: 25px;
-    color:#ededed;
+    color: #ededed;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 570;
 
 }
-.btn-bx:hover 
-{
- box-shadow: 0 0 5px rgb(255, 179, 245),
- 0 0 25px rgb(255, 179, 245), 0 0 500px rgb(255, 179, 245), 
- 0 0 20px rgb(255, 179, 245), 0 0 500px rgb(255, 179, 245);
+
+.btn-bx:hover {
+    box-shadow: 0 0 5px rgb(255, 179, 245),
+        0 0 25px rgb(255, 179, 245), 0 0 500px rgb(255, 179, 245),
+        0 0 20px rgb(255, 179, 245), 0 0 500px rgb(255, 179, 245);
 }
