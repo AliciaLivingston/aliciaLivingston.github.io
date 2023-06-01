@@ -54,7 +54,7 @@ body {
     height: 100vh;
     background-image: url("Home.png");
     background-color: rgb(19, 10, 34);
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
     align-items: center;
     padding: 10% 10px 0;
