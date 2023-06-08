@@ -52,8 +52,8 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url("Home.png");
-    background-color: rgb(19, 10, 34);
+    background-image: url("/img/White_Halo_Canva_Home_PFP.png");
+    background-color: #020316; 
     background-size: 100% auto;
     background-position: center;
     align-items: center;
