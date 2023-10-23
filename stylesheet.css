@@ -12,7 +12,7 @@ body {
 .header {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 25px;
     width: 100%;
     padding: 20px 10%;
     background: transparent;
@@ -46,34 +46,39 @@ body {
     color: rgb(255, 0, 234);
 }
 
+
 .home {
-    position: relative;
+    position: relative; 
     display: flex;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    /*background-image: url("img/White_Halo_Canva_Home_PFP.png"); */
-    background-color: #020316; 
-    background-size: 100% auto;
-    background-position: center;
+    background-color:  #020316; 
     align-items: center;
     padding: 10% 10px 0;
 
 
 }
 
+.pfp img {
+   margin: -10%;
+   
+   
+}
+
 .home-content {
-    max-width: 500px;
-    margin-left: 50px;
+    
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .home-content h3 {
-    font-size: 30px;
+    font-size:40px;
     font-weight: 600;
 }
 
 .home-content p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .home-content p span {
@@ -81,7 +86,7 @@ body {
 }
 
 .home-content p:nth-of-type(1) {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 
 }
 
@@ -127,4 +132,52 @@ body {
     box-shadow: 0 0 5px rgb(255, 179, 245),
         0 0 25px rgb(255, 179, 245), 0 0 500px rgb(255, 179, 245),
         0 0 20px rgb(255, 179, 245), 0 0 500px rgb(255, 179, 245);
+}
+
+@media screen and (max-width: 798px) {
+  
+    .header {
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .logo {
+       display: none;
+       
+    }
+
+    .navbar a {
+        margin-left: 20px;
+        font-size: 100%
+       
+
+    }
+
+    .home {
+        flex-direction: column; /* this will make all my elements stack vertically */
+        justify-content: center;
+        }
+
+    .pfp img {
+        margin: 0;
+        
+        
+        }
+
+    .home-content {
+        max-width:  100%;
+        margin: 10px 0%; 
+        text-align: center;
+        
+    }
+
+    .home-sci  {
+       margin: 10px;
+    }
+
+    .btn-bx {
+        padding: 10px 20px;
+        margin: 20px;
+    }
 }
