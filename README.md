@@ -1,5 +1,5 @@
 # aliciaLivingston.github.io
-My coding portfolio website currently in process, built with vanilla JS
+My coding portfolio website currently in process, built with vanilla JS HTML and CSS
 
 Credits for libraries:
 <br>
